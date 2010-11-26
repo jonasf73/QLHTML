@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F206B538129FD984007AAC64 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F206B537129FD984007AAC64 /* QuickLook.framework */; };
+		F206B53A129FD984007AAC64 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F206B539129FD984007AAC64 /* ApplicationServices.framework */; };
+		F206B53C129FD984007AAC64 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F206B53B129FD984007AAC64 /* CoreServices.framework */; };
+		F206B53E129FD984007AAC64 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F206B53D129FD984007AAC64 /* CoreFoundation.framework */; };
+		F206B545129FD984007AAC64 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = F206B544129FD984007AAC64 /* GenerateThumbnailForURL.c */; };
+		F206B547129FD984007AAC64 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = F206B546129FD984007AAC64 /* GeneratePreviewForURL.c */; };
+		F206B549129FD984007AAC64 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F206B548129FD984007AAC64 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F206B535129FD984007AAC64 /* QLHTML.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLHTML.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		F206B537129FD984007AAC64 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		F206B539129FD984007AAC64 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		F206B53B129FD984007AAC64 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		F206B53D129FD984007AAC64 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		F206B53F129FD984007AAC64 /* QLHTML-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QLHTML-Info.plist"; sourceTree = "<group>"; };
+		F206B540129FD984007AAC64 /* QLHTML_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLHTML_Prefix.pch; sourceTree = "<group>"; };
+		F206B544129FD984007AAC64 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
+		F206B546129FD984007AAC64 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		F206B548129FD984007AAC64 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F206B530129FD984007AAC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F206B538129FD984007AAC64 /* QuickLook.framework in Frameworks */,
+				F206B53A129FD984007AAC64 /* ApplicationServices.framework in Frameworks */,
+				F206B53C129FD984007AAC64 /* CoreServices.framework in Frameworks */,
+				F206B53E129FD984007AAC64 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F206B524129FD984007AAC64 = {
+			isa = PBXGroup;
+			children = (
+				F206B52B129FD984007AAC64 /* Source */,
+				F206B52C129FD984007AAC64 /* Resources */,
+				F206B52D129FD984007AAC64 /* Other Sources */,
+				F206B52E129FD984007AAC64 /* Frameworks */,
+				F206B536129FD984007AAC64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F206B52B129FD984007AAC64 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F206B544129FD984007AAC64 /* GenerateThumbnailForURL.c */,
+				F206B546129FD984007AAC64 /* GeneratePreviewForURL.c */,
+				F206B548129FD984007AAC64 /* main.c */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F206B52C129FD984007AAC64 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F206B53F129FD984007AAC64 /* QLHTML-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F206B52D129FD984007AAC64 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F206B540129FD984007AAC64 /* QLHTML_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		F206B52E129FD984007AAC64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F206B537129FD984007AAC64 /* QuickLook.framework */,
+				F206B539129FD984007AAC64 /* ApplicationServices.framework */,
+				F206B53B129FD984007AAC64 /* CoreServices.framework */,
+				F206B53D129FD984007AAC64 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F206B536129FD984007AAC64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F206B535129FD984007AAC64 /* QLHTML.qlgenerator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F206B531129FD984007AAC64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F206B534129FD984007AAC64 /* QLHTML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F206B54C129FD984007AAC64 /* Build configuration list for PBXNativeTarget "QLHTML" */;
+			buildPhases = (
+				F206B52F129FD984007AAC64 /* Sources */,
+				F206B530129FD984007AAC64 /* Frameworks */,
+				F206B531129FD984007AAC64 /* Headers */,
+				F206B532129FD984007AAC64 /* Resources */,
+				F206B533129FD984007AAC64 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLHTML;
+			productName = QLHTML;
+			productReference = F206B535129FD984007AAC64 /* QLHTML.qlgenerator */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F206B526129FD984007AAC64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Apple;
+			};
+			buildConfigurationList = F206B529129FD984007AAC64 /* Build configuration list for PBXProject "QLHTML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F206B524129FD984007AAC64;
+			productRefGroup = F206B536129FD984007AAC64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F206B534129FD984007AAC64 /* QLHTML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F206B532129FD984007AAC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		F206B533129FD984007AAC64 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F206B52F129FD984007AAC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F206B545129FD984007AAC64 /* GenerateThumbnailForURL.c in Sources */,
+				F206B547129FD984007AAC64 /* GeneratePreviewForURL.c in Sources */,
+				F206B549129FD984007AAC64 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F206B54A129FD984007AAC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		F206B54B129FD984007AAC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		F206B54D129FD984007AAC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QLHTML_Prefix.pch;
+				INFOPLIST_FILE = "QLHTML-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = QLHTML;
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Debug;
+		};
+		F206B54E129FD984007AAC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QLHTML_Prefix.pch;
+				INFOPLIST_FILE = "QLHTML-Info.plist";
+				INSTALL_PATH = /Library/QuickLook;
+				PRODUCT_NAME = QLHTML;
+				WRAPPER_EXTENSION = qlgenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F206B529129FD984007AAC64 /* Build configuration list for PBXProject "QLHTML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F206B54A129FD984007AAC64 /* Debug */,
+				F206B54B129FD984007AAC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F206B54C129FD984007AAC64 /* Build configuration list for PBXNativeTarget "QLHTML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F206B54D129FD984007AAC64 /* Debug */,
+				F206B54E129FD984007AAC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F206B526129FD984007AAC64 /* Project object */;
+}
